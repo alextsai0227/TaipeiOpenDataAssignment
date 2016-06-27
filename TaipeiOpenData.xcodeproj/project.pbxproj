@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03079AD51D191B1B005C6BEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03079AD41D191B1B005C6BEB /* AppDelegate.swift */; };
+		03079AD71D191B1B005C6BEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03079AD61D191B1B005C6BEB /* ViewController.swift */; };
+		03079ADA1D191B1B005C6BEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03079AD81D191B1B005C6BEB /* Main.storyboard */; };
+		03079ADC1D191B1B005C6BEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03079ADB1D191B1B005C6BEB /* Assets.xcassets */; };
+		03079ADF1D191B1B005C6BEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03079ADD1D191B1B005C6BEB /* LaunchScreen.storyboard */; };
+		03079AE91D193A3D005C6BEB /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03079AE81D193A3D005C6BEB /* TableViewController.swift */; };
+		03079AEE1D19902B005C6BEB /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03079AEC1D19902B005C6BEB /* ImageTableViewCell.swift */; };
+		03079AEF1D19902B005C6BEB /* ImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03079AED1D19902B005C6BEB /* ImageTableViewCell.xib */; };
+		49752FE48ED14C531D9DAC11 /* Pods_TaipeiOpenData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E67A4784DE9402CC41CDA0F /* Pods_TaipeiOpenData.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03079AD11D191B1B005C6BEB /* TaipeiOpenData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaipeiOpenData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03079AD41D191B1B005C6BEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03079AD61D191B1B005C6BEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03079AD91D191B1B005C6BEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03079ADB1D191B1B005C6BEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03079ADE1D191B1B005C6BEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03079AE01D191B1B005C6BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03079AE81D193A3D005C6BEB /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		03079AEC1D19902B005C6BEB /* ImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		03079AED1D19902B005C6BEB /* ImageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageTableViewCell.xib; sourceTree = "<group>"; };
+		2BF428E1E8EC6501A0BB9F1F /* Pods-TaipeiOpenData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaipeiOpenData.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaipeiOpenData/Pods-TaipeiOpenData.debug.xcconfig"; sourceTree = "<group>"; };
+		4E67A4784DE9402CC41CDA0F /* Pods_TaipeiOpenData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaipeiOpenData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5172E0E8562CD6C894E8759D /* Pods-TaipeiOpenData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaipeiOpenData.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaipeiOpenData/Pods-TaipeiOpenData.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03079ACE1D191B1B005C6BEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49752FE48ED14C531D9DAC11 /* Pods_TaipeiOpenData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03079AC81D191B1B005C6BEB = {
+			isa = PBXGroup;
+			children = (
+				03079AD31D191B1B005C6BEB /* TaipeiOpenData */,
+				03079AD21D191B1B005C6BEB /* Products */,
+				BD401E157779611EF026E3A9 /* Pods */,
+				11E971F9E762C980823DD700 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		03079AD21D191B1B005C6BEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03079AD11D191B1B005C6BEB /* TaipeiOpenData.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03079AD31D191B1B005C6BEB /* TaipeiOpenData */ = {
+			isa = PBXGroup;
+			children = (
+				03079AD41D191B1B005C6BEB /* AppDelegate.swift */,
+				03079AD61D191B1B005C6BEB /* ViewController.swift */,
+				03079AD81D191B1B005C6BEB /* Main.storyboard */,
+				03079ADB1D191B1B005C6BEB /* Assets.xcassets */,
+				03079ADD1D191B1B005C6BEB /* LaunchScreen.storyboard */,
+				03079AE01D191B1B005C6BEB /* Info.plist */,
+				03079AE81D193A3D005C6BEB /* TableViewController.swift */,
+				03079AEC1D19902B005C6BEB /* ImageTableViewCell.swift */,
+				03079AED1D19902B005C6BEB /* ImageTableViewCell.xib */,
+			);
+			path = TaipeiOpenData;
+			sourceTree = "<group>";
+		};
+		11E971F9E762C980823DD700 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E67A4784DE9402CC41CDA0F /* Pods_TaipeiOpenData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD401E157779611EF026E3A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BF428E1E8EC6501A0BB9F1F /* Pods-TaipeiOpenData.debug.xcconfig */,
+				5172E0E8562CD6C894E8759D /* Pods-TaipeiOpenData.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03079AD01D191B1B005C6BEB /* TaipeiOpenData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03079AE31D191B1B005C6BEB /* Build configuration list for PBXNativeTarget "TaipeiOpenData" */;
+			buildPhases = (
+				9524005369B9044B7831F390 /* [CP] Check Pods Manifest.lock */,
+				03079ACD1D191B1B005C6BEB /* Sources */,
+				03079ACE1D191B1B005C6BEB /* Frameworks */,
+				03079ACF1D191B1B005C6BEB /* Resources */,
+				11651CE8A2567E0983FC990D /* [CP] Embed Pods Frameworks */,
+				DC13B0527073A4D84DF7A8F9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaipeiOpenData;
+			productName = TaipeiOpenData;
+			productReference = 03079AD11D191B1B005C6BEB /* TaipeiOpenData.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03079AC91D191B1B005C6BEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "蔡舜珵";
+				TargetAttributes = {
+					03079AD01D191B1B005C6BEB = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = WS83J7MJTB;
+					};
+				};
+			};
+			buildConfigurationList = 03079ACC1D191B1B005C6BEB /* Build configuration list for PBXProject "TaipeiOpenData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03079AC81D191B1B005C6BEB;
+			productRefGroup = 03079AD21D191B1B005C6BEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03079AD01D191B1B005C6BEB /* TaipeiOpenData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03079ACF1D191B1B005C6BEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03079ADF1D191B1B005C6BEB /* LaunchScreen.storyboard in Resources */,
+				03079AEF1D19902B005C6BEB /* ImageTableViewCell.xib in Resources */,
+				03079ADC1D191B1B005C6BEB /* Assets.xcassets in Resources */,
+				03079ADA1D191B1B005C6BEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11651CE8A2567E0983FC990D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaipeiOpenData/Pods-TaipeiOpenData-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9524005369B9044B7831F390 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DC13B0527073A4D84DF7A8F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaipeiOpenData/Pods-TaipeiOpenData-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03079ACD1D191B1B005C6BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03079AD71D191B1B005C6BEB /* ViewController.swift in Sources */,
+				03079AEE1D19902B005C6BEB /* ImageTableViewCell.swift in Sources */,
+				03079AD51D191B1B005C6BEB /* AppDelegate.swift in Sources */,
+				03079AE91D193A3D005C6BEB /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03079AD81D191B1B005C6BEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03079AD91D191B1B005C6BEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03079ADD1D191B1B005C6BEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03079ADE1D191B1B005C6BEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03079AE11D191B1B005C6BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03079AE21D191B1B005C6BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03079AE41D191B1B005C6BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BF428E1E8EC6501A0BB9F1F /* Pods-TaipeiOpenData.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TaipeiOpenData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.TaipeiOpenData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		03079AE51D191B1B005C6BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5172E0E8562CD6C894E8759D /* Pods-TaipeiOpenData.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TaipeiOpenData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.TaipeiOpenData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03079ACC1D191B1B005C6BEB /* Build configuration list for PBXProject "TaipeiOpenData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03079AE11D191B1B005C6BEB /* Debug */,
+				03079AE21D191B1B005C6BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03079AE31D191B1B005C6BEB /* Build configuration list for PBXNativeTarget "TaipeiOpenData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03079AE41D191B1B005C6BEB /* Debug */,
+				03079AE51D191B1B005C6BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03079AC91D191B1B005C6BEB /* Project object */;
+}

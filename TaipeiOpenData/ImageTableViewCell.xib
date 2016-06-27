@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="100" id="KGk-i7-Jjw" customClass="ImageTableViewCell" customModule="TaipeiOpenData" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="99"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nkh-qt-qsF">
+                        <rect key="frame" x="8" y="25" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="6zA-hS-qAh"/>
+                            <constraint firstAttribute="height" constant="50" id="SBF-sW-ROi"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R5e-CF-qmw">
+                        <rect key="frame" x="63" y="54" width="45" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hHg-j1-ycl">
+                        <rect key="frame" x="63" y="25" width="62" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="hHg-j1-ycl" firstAttribute="leading" secondItem="nkh-qt-qsF" secondAttribute="trailing" constant="5" id="144-ej-Glg"/>
+                    <constraint firstItem="R5e-CF-qmw" firstAttribute="leading" secondItem="nkh-qt-qsF" secondAttribute="trailing" constant="5" id="1mj-H6-lQc"/>
+                    <constraint firstItem="R5e-CF-qmw" firstAttribute="top" secondItem="hHg-j1-ycl" secondAttribute="bottom" constant="8" id="1yJ-lO-I84"/>
+                    <constraint firstItem="nkh-qt-qsF" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="8rp-Ae-yzt"/>
+                    <constraint firstItem="R5e-CF-qmw" firstAttribute="top" secondItem="nkh-qt-qsF" secondAttribute="top" constant="29" id="AUP-5q-l5X"/>
+                    <constraint firstItem="nkh-qt-qsF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="17" id="Udz-oA-oTO"/>
+                    <constraint firstItem="nkh-qt-qsF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="aR1-3z-HTP"/>
+                    <constraint firstItem="hHg-j1-ycl" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="17" id="btZ-LL-OoQ"/>
+                    <constraint firstItem="R5e-CF-qmw" firstAttribute="leading" secondItem="nkh-qt-qsF" secondAttribute="trailing" constant="5" id="iGj-vx-415"/>
+                    <constraint firstItem="hHg-j1-ycl" firstAttribute="top" secondItem="R5e-CF-qmw" secondAttribute="bottom" constant="-50" id="oWq-sF-vi8"/>
+                    <constraint firstItem="R5e-CF-qmw" firstAttribute="leading" secondItem="hHg-j1-ycl" secondAttribute="leading" id="tI4-hM-hN9"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="oWq-sF-vi8"/>
+                        <exclude reference="1mj-H6-lQc"/>
+                        <exclude reference="AUP-5q-l5X"/>
+                        <exclude reference="tI4-hM-hN9"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="address" destination="hHg-j1-ycl" id="wJK-K2-gPS"/>
+                <outlet property="name" destination="R5e-CF-qmw" id="cQb-O3-2BH"/>
+                <outlet property="picture" destination="nkh-qt-qsF" id="Ie8-ky-Ba7"/>
+            </connections>
+            <point key="canvasLocation" x="288" y="435"/>
+        </tableViewCell>
+    </objects>
+</document>
